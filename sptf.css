@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#page1 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#nav {
+    width: 24%;
+    height: 108vh;
+    border: solid;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.pr {
+    background-color: rgb(16, 15, 15);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px;
+}
+
+#li {
+    list-style: none;
+    color: white;
+    padding: 10px;
+    margin: 0px 15px;
+}
+
+#li a {
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    font-size: 20px;
+    font-family: Rubik;
+}
+
+.con {
+    background-color: rgb(16, 15, 15);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px;
+    height: 90vh;
+}
+
+#list {
+    list-style: none;
+    color: white;
+    margin: 10px 0px;
+    padding: 0px 13px;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    float: left;
+}
+
+.sng {
+    height: 60px;
+}
+
+.nm {
+    float: left;
+    margin-left: 15px;
+}
+
+.ar {
+    color: grey;
+    font-weight: bold;
+    margin-left: 15px;
+    float: left;
+}
+
+.btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+#sd {
+    width: 76%;
+    height: 108vh;
+    background-color: rgb(16, 15, 15);
+    float: right;
+    border: solid black 7px;
+    border-radius: 5px;
+}
+
+.im {
+    margin-top: 15px;
+    text-align: center;
+}
+
+#foot{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    z-index: 100;
+    margin-top: -140px;
+    text-align: center;
+}
+
+#aud{
+    width: 50%;
+    background-color: transparent;
+    color: black;
+    padding: 10px;
+}
+
+#ph{
+    float: left;
+    margin: 10px 25px;
+}
+
+#name{
+    float: right;
+    color: white;
+    margin: 3px 13px;
+}
+
+.arr {
+    color: grey;
+    font-weight: bold;
+    margin-left: 3px;
+    float: left;
+}
+
+.ar1 {
+    color: grey;
+    font-weight: bold;
+    margin-left: 64px;
+    float: left;
+    margin-top: -23px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="sptf.css">
+</head>
+
+<body>
+    <div id="page1">
+        <div id="sd">
+            <div class="im"><img src="Spotify_Logo_CMYK_Green.png" width="25%"></div>
+        </div>
+        <nav id="nav">
+            <div class="pr">
+                <ul id="li">
+                    <li> <button style="background-color: transparent; color: white; border: none;"><i
+                                class="fa-solid fa-house"></i></button><a href="#">Home</a></li><br>
+                    <li id="search"> <button  style="background-color: transparent; color: white; border: none;"><i 
+                                class="fa-solid fa-magnifying-glass"></i></button><a id="search" href="#">Search</a></li>
+                </ul>
+            </div>
+            <div class="con">
+                <ul id="li">
+                    <li><button style="background-color: transparent; color: white; border: none;"><i
+                                class="fa-solid fa-list"></i></button><a href="#">Your Library</a></li>
+                </ul>
+                <ul id="list">
+                    <li class="sng"><button class="btn"><img class="img" src="img1.jpeg"><span class="nm"
+                                onclick="songplay(this)">Animal teaser.mp3</span><br><span
+                                class="ar">Artist</span></button></li>
+                    <li class="sng"><button class="btn"><img class="img" src="img2.jpeg"><span class="nm"
+                                onclick="songplay(this)">Arjan vailey.mp3</span><br><span
+                                class="ar">Artist</span></button></li>
+                    <li class="sng"><button class="btn"><img class="img" src="img3.jpeg"><span class="nm"
+                                onclick="songplay(this)">Badrang Satranga.mp3</span><br><span
+                                class="ar">Artist</span></button></li>
+                    <li class="sng"><button class="btn"><img class="img" src="img4.jpeg"><span class="nm"
+                                onclick="songplay(this)">Dil diyan gallan.mp3</span><br><span
+                                class="ar">Artist</span></button></li>
+                    <li class="sng"><button class="btn"><img class="img" src="img5.jpg"> <span class="nm"
+                                onclick="songplay(this)">Humdard Ek villan.mp3</span><br><span
+                                class="ar">Artist</span></button></li>
+                    <li class="sng"><button class="btn"><img class="img" src="img6.jpeg"><span class="nm"
+                                onclick="songplay(this)">Ranjhana.mp3</span><br><span class="ar">Artist</span></button>
+                    </li>
+                    <li class="sng"><button class="btn"><img class="img" src="img7.jpeg"> <span class="nm"
+                                onclick="songplay(this)">Mai Bairagan.mp3</span><br><span
+                                class="ar">Artist</span></button></li>
+                </ul>
+            </div>
+        </nav>
+        <footer id="foot">
+            <div id="ph">
+                <img id="imgg" src="img1.jpeg" width="50px" height="50px">
+                <span id="name">Animal teaser.mp3</span> <br><span class="ar1">Artist</span>
+            </div>
+            <div class="icon">
+                <button style="background-color: transparent; color: grey; border: none;"><i id="backward"
+                        class="fa-solid fa-backward"></i></button>&nbsp;<button
+                    style="background-color: transparent; color: white; border: none;"><i id="playpause"
+                        class="fa-solid fa-play w-50 p-2"></i></button>&nbsp;&nbsp;<button
+                    style="background-color: transparent; color: grey; border: none;"><i id="forward"
+                        class="fa-solid fa-forward p-2"></i></button>
+            </div>
+            <audio id="aud" src="Animal teaser.mp3" controls></audio>
+        </footer>
+    </div>
+    
+
+    <script src="sptf.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
